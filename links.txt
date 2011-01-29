@@ -1,0 +1,18 @@
+http://vlasov.karelia.ru/monitors/
+Результаты зимних сборов в Петрозаводске
+http://acm.timus.ru/
+Архив задач с проверяющей системой Уральского ГУ
+http://acm.sgu.ru/
+Архив задач с проверяющей системой Саратовского ГУ
+http://acm.uva.es/
+Испанский сервер 
+http://acm.zju.edu.cn/
+Китайский сервер 
+http://www.caravan.ru/~alexch/graphs/Graph_Terms_and_Definitions.htm
+Все определения, касающиеся теории графов
+http://www.xprogramming.ru/
+Экстремальное программирование по-русски
+http://www.xprogramming.ru/Misc/XPResources.html
+Ссылки по экстремальному программированию
+http://stkolj.narod.ru
+Уровни для Quake 3, Starcraft, самописные танки с исходниками, создание игр

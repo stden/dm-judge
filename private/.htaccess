@@ -1,0 +1,3 @@
+<Files ~ "\.(a|txt)$">
+Deny from all
+</Files> 

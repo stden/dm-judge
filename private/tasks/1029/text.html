@@ -1,0 +1,209 @@
+<html>
+
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=windows-1251">
+<meta name=Generator content="Microsoft Word 10 (filtered)">
+<title>1029</title>
+
+<style>
+<!--
+ /* Font Definitions */
+ @font-face
+	{font-family:Verdana;
+	panose-1:2 11 6 4 3 5 4 4 2 4;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	font-size:10.0pt;
+	font-family:"Times New Roman";}
+p.MsoBodyText, li.MsoBodyText, div.MsoBodyText
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:6.0pt;
+	margin-left:0cm;
+	font-size:10.0pt;
+	font-family:"Times New Roman";}
+p.MsoBodyText3, li.MsoBodyText3, div.MsoBodyText3
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:6.0pt;
+	margin-left:0cm;
+	font-size:8.0pt;
+	font-family:"Times New Roman";}
+p.normal, li.normal, div.normal
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	font-size:12.0pt;
+	font-family:"Times New Roman";}
+p.problem0, li.problem0, div.problem0
+	{margin-top:3.0pt;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:0cm;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-indent:35.45pt;
+	font-size:12.0pt;
+	font-family:Verdana;}
+p.format0, li.format0, div.format0
+	{margin-top:3.0pt;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:0cm;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-indent:35.45pt;
+	font-size:12.0pt;
+	font-family:Verdana;
+	font-weight:bold;
+	font-style:italic;}
+p.inout, li.inout, div.inout
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	font-size:12.0pt;
+	font-family:"Courier New";
+	font-weight:bold;}
+p.sampleheader, li.sampleheader, div.sampleheader
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:center;
+	font-size:8.0pt;
+	font-family:"Times New Roman";}
+p.problem1, li.problem1, div.problem1
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:3.0pt;
+	margin-left:0cm;
+	text-indent:22.7pt;
+	font-size:14.0pt;
+	font-family:"Times New Roman";}
+p.couriernew11pt, li.couriernew11pt, div.couriernew11pt
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:center;
+	font-size:13.0pt;
+	font-family:"Courier New";
+	font-weight:bold;}
+p.ProblemStatement, li.ProblemStatement, div.ProblemStatement
+	{margin-top:2.0pt;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:0cm;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-indent:35.45pt;
+	font-size:11.0pt;
+	font-family:"Times New Roman";}
+p.ProblemExampleCaption, li.ProblemExampleCaption, div.ProblemExampleCaption
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:center;
+	font-size:11.0pt;
+	font-family:"Courier New";
+	font-weight:bold;}
+p.ProblemExample, li.ProblemExample, div.ProblemExample
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	font-size:11.0pt;
+	font-family:"Courier New";}
+span.problem
+	{font-family:Verdana;}
+span.format
+	{font-family:Verdana;
+	font-weight:bold;
+	font-style:italic;}
+span.couriernew
+	{font-family:"Courier New";}
+@page Section1
+	{size:595.3pt 841.9pt;
+	margin:2.0cm 42.5pt 2.0cm 3.0cm;}
+div.Section1
+	{page:Section1;}
+-->
+</style>
+
+</head>
+
+<body lang=RU>
+
+<div class=Section1>
+
+<p class=normal align=center style='text-align:center'><b><span
+style='font-family:Arial'>1029. Двоично-симметричные простые числа</span></b></p>
+
+<p class=ProblemStatement style='text-indent:17.85pt'><span style='font-size:
+12.0pt'>Назовем число симметричным в заданной системе счисления, если запись
+числа в этой системе счисления читается как слева направо, так и справа налево
+одинаково (например, числа 1, 77, 656 являются симметричными в десятичной
+системе счисления). Двоично-симметричным простым числом будем называть такое
+простое число, которое симметрично в двоичной системе счисления. Ваша задача
+найти все двоично-симметричные простые числа, которые не меньше </span><i><span
+lang=EN-US style='font-size:12.0pt'>M</span></i><span style='font-size:12.0pt'>
+и не больше </span><i><span lang=EN-US style='font-size:12.0pt'>N</span></i><span
+style='font-size:12.0pt'>.</span></p>
+
+<p class=ProblemStatement style='text-indent:17.85pt'><b><i><span
+style='font-size:12.0pt'>Формат входных данных:</span></i></b></p>
+
+<p class=ProblemStatement style='text-indent:17.85pt'><span style='font-size:
+12.0pt'>Первая строка теста содержит два целых числа – </span><i><span
+lang=EN-US style='font-size:12.0pt'>M</span></i><span style='font-size:12.0pt'>,
+</span><i><span lang=EN-US style='font-size:12.0pt'>N</span></i><span
+style='font-size:12.0pt'> (1&#8804;</span><i><span lang=EN-US style='font-size:
+12.0pt'>M</span></i><span style='font-size:12.0pt'>&#8804;</span><i><span
+lang=EN-US style='font-size:12.0pt'>N</span></i><span style='font-size:12.0pt'>&#8804;30000).</span></p>
+
+<p class=ProblemStatement style='text-indent:17.85pt'><b><i><span
+style='font-size:12.0pt'>Формат выходных данных:</span></i></b></p>
+
+<p class=ProblemStatement style='text-indent:17.85pt'><span style='font-size:
+12.0pt'>Ответ на каждый тест должен содержать все найденные
+двоично-симметричные простые числа из промежутка [</span><i><span lang=EN-US
+style='font-size:12.0pt'>M</span></i><span style='font-size:12.0pt'>; </span><i><span
+lang=EN-US style='font-size:12.0pt'>N</span></i><span style='font-size:12.0pt'>]
+в порядке возрастания. Все числа должны быть отделены друг от друга пробелом.
+Если не найдено ни одного числа, то следует вывести “</span><span lang=EN-US
+style='font-size:12.0pt'>No</span><span style='font-size:12.0pt'>” (без
+кавычек).</span></p>
+
+<table class=MsoNormalTable border=1 cellspacing=0 cellpadding=0
+ style='border-collapse:collapse;border:none'>
+ <tr>
+  <td width=178 valign=top style='width:133.75pt;border:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=ProblemExampleCaption><span lang=EN-US style='font-size:12.0pt'>Пример</span><span
+  style='font-size:12.0pt'> теста</span></p>
+  </td>
+  <td width=205 valign=top style='width:153.85pt;border:solid windowtext 1.0pt;
+  border-left:none;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=ProblemExampleCaption><span lang=EN-US style='font-size:12.0pt'>Пример</span><span
+  style='font-size:12.0pt'> ответа</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=178 valign=top style='width:133.75pt;border:solid windowtext 1.0pt;
+  border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=ProblemExample><span lang=EN-US style='font-size:12.0pt'>2</span></p>
+  <p class=ProblemExample><span lang=EN-US style='font-size:12.0pt'>1 10</span></p>
+  <p class=ProblemExample><span lang=EN-US style='font-size:12.0pt'>1 1</span></p>
+  </td>
+  <td width=205 valign=top style='width:153.85pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=ProblemExample><span lang=EN-US style='font-size:12.0pt'>3 5 7</span></p>
+  <p class=ProblemExample><span lang=EN-US style='font-size:12.0pt'>No</span></p>
+  </td>
+ </tr>
+</table>
+
+<p class=inout><i><span style='font-family:"Times New Roman"'>Источник:</span></i><span
+style='font-family:"Times New Roman";font-weight:normal'> Денис Назаров.
+Олимпиады школьников в Уфе.</span></p>
+
+</div>
+
+</body>
+
+</html>
