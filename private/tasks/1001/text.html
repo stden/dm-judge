@@ -1,0 +1,516 @@
+<html xmlns:v="urn:schemas-microsoft-com:vml"
+xmlns:o="urn:schemas-microsoft-com:office:office"
+xmlns:w="urn:schemas-microsoft-com:office:word"
+xmlns="http://www.w3.org/TR/REC-html40">
+
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=windows-1251">
+<meta name=ProgId content=Word.Document>
+<meta name=Generator content="Microsoft Word 10">
+<meta name=Originator content="Microsoft Word 10">
+<link rel=File-List href="text.files/filelist.xml">
+<title>1001</title>
+<!--[if gte mso 9]><xml>
+ <w:WordDocument>
+  <w:Zoom>BestFit</w:Zoom>
+  <w:SpellingState>Clean</w:SpellingState>
+  <w:GrammarState>Clean</w:GrammarState>
+  <w:BrowserLevel>MicrosoftInternetExplorer4</w:BrowserLevel>
+ </w:WordDocument>
+</xml><![endif]-->
+<style>
+<!--
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{mso-style-parent:"";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:10.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";}
+p.normal, li.normal, div.normal
+	{mso-style-name:normal;
+	margin:0cm;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";}
+span.SpellE
+	{mso-style-name:"";
+	mso-spl-e:yes;}
+span.GramE
+	{mso-style-name:"";
+	mso-gram-e:yes;}
+@page Section1
+	{size:595.3pt 841.9pt;
+	margin:2.0cm 42.5pt 2.0cm 3.0cm;
+	mso-header-margin:36.0pt;
+	mso-footer-margin:36.0pt;
+	mso-paper-source:0;}
+div.Section1
+	{page:Section1;}
+-->
+</style>
+<!--[if gte mso 10]>
+<style>
+ /* Style Definitions */
+ table.MsoNormalTable
+	{mso-style-name:"Обычная таблица";
+	mso-tstyle-rowband-size:0;
+	mso-tstyle-colband-size:0;
+	mso-style-noshow:yes;
+	mso-style-parent:"";
+	mso-padding-alt:0cm 5.4pt 0cm 5.4pt;
+	mso-para-margin:0cm;
+	mso-para-margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:10.0pt;
+	font-family:"Times New Roman";}
+table.MsoTableGrid
+	{mso-style-name:"Сетка таблицы";
+	mso-tstyle-rowband-size:0;
+	mso-tstyle-colband-size:0;
+	border:solid windowtext 1.0pt;
+	mso-border-alt:solid windowtext .5pt;
+	mso-padding-alt:0cm 5.4pt 0cm 5.4pt;
+	mso-border-insideh:.5pt solid windowtext;
+	mso-border-insidev:.5pt solid windowtext;
+	mso-para-margin:0cm;
+	mso-para-margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:10.0pt;
+	font-family:"Times New Roman";}
+</style>
+<![endif]--><!--[if gte mso 9]><xml>
+ <o:shapedefaults v:ext="edit" spidmax="3074">
+  <o:colormenu v:ext="edit" fillcolor="#cff"/>
+ </o:shapedefaults></xml><![endif]--><!--[if gte mso 9]><xml>
+ <o:shapelayout v:ext="edit">
+  <o:idmap v:ext="edit" data="1"/>
+ </o:shapelayout></xml><![endif]-->
+</head>
+
+<body lang=RU style='tab-interval:35.4pt'>
+
+<div class=Section1>
+
+<p class=normal align=center style='text-align:center'><b><span
+style='font-family:Arial'>1001. Максимальный <span class=SpellE>подмассив</span></span></b></p>
+
+<p class=MsoNormal><span style='font-size:12.0pt'>Дано натуральное <b
+style='mso-bidi-font-weight:normal'><i style='mso-bidi-font-style:normal'>N</i></b>
+и задан массив (квадратная матрица) </span><b style='mso-bidi-font-weight:normal'><i
+style='mso-bidi-font-style:normal'><span lang=EN-US style='font-size:12.0pt;
+mso-ansi-language:EN-US'>Q</span></i></b><span style='font-size:12.0pt'>, <span
+class=SpellE>содержащ</span></span><span class=GramE><span lang=EN-US
+style='font-size:12.0pt;mso-ansi-language:EN-US'>a</span></span><span
+style='font-size:12.0pt'>я <span class=SpellE><b style='mso-bidi-font-weight:
+normal'><i style='mso-bidi-font-style:normal'>N</i></b>х<b style='mso-bidi-font-weight:
+normal'><i style='mso-bidi-font-style:normal'>N</i></b></span> целых чисел.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:12.0pt'>Назовем <span class=SpellE><b
+style='mso-bidi-font-weight:normal'><i style='mso-bidi-font-style:normal'>подмассивом</i></b></span>
+любую прямоугольную подматрицу матрицы </span><b style='mso-bidi-font-weight:
+normal'><i style='mso-bidi-font-style:normal'><span lang=EN-US
+style='font-size:12.0pt;mso-ansi-language:EN-US'>Q</span></i></b><span
+style='font-size:12.0pt'>.<o:p></o:p></span></p>
+
+<p class=MsoNormal><span style='font-size:12.0pt'>Примеры <span class=SpellE>подмассивов</span>
+приведены на рисунке:<o:p></o:p></span></p>
+
+<table class=MsoTableGrid border=0 cellspacing=0 cellpadding=0
+ style='border-collapse:collapse;mso-yfti-tbllook:480;mso-padding-alt:0cm 5.4pt 0cm 5.4pt'>
+ <tr style='mso-yfti-irow:0;mso-yfti-lastrow:yes'>
+  <td width=213 valign=top style='width:159.5pt;padding:0cm 5.4pt 0cm 5.4pt'>
+  <table class=MsoTableGrid border=1 cellspacing=0 cellpadding=0 width=197
+   style='width:147.6pt;border-collapse:collapse;border:none;mso-border-alt:
+   solid windowtext .5pt;mso-yfti-tbllook:480;mso-padding-alt:0cm 5.4pt 0cm 5.4pt;
+   mso-border-insideh:.5pt solid windowtext;mso-border-insidev:.5pt solid windowtext'>
+   <tr style='mso-yfti-irow:0'>
+    <td width=49 valign=top style='width:36.9pt;border:solid windowtext 1.0pt;
+    mso-border-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt'>
+    <p class=MsoNormal><span style='font-size:12.0pt;font-family:"Courier New"'>-1<o:p></o:p></span></p>
+    </td>
+    <td width=49 valign=top style='width:36.9pt;border:solid windowtext 1.0pt;
+    border-left:none;mso-border-left-alt:solid windowtext .5pt;mso-border-alt:
+    solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt'>
+    <p class=MsoNormal><span style='font-size:12.0pt;font-family:"Courier New"'>-2<o:p></o:p></span></p>
+    </td>
+    <td width=49 valign=top style='width:36.9pt;border:solid windowtext 1.0pt;
+    border-left:none;mso-border-left-alt:solid windowtext .5pt;mso-border-alt:
+    solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt'>
+    <p class=MsoNormal><span style='font-size:12.0pt;font-family:"Courier New"'>-3<o:p></o:p></span></p>
+    </td>
+    <td width=49 valign=top style='width:36.9pt;border:solid windowtext 1.0pt;
+    border-left:none;mso-border-left-alt:solid windowtext .5pt;mso-border-alt:
+    solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt'>
+    <p class=MsoNormal><span style='font-size:12.0pt;font-family:"Courier New"'>-4<o:p></o:p></span></p>
+    </td>
+   </tr>
+   <tr style='mso-yfti-irow:1'>
+    <td width=49 valign=top style='width:36.9pt;border:solid windowtext 1.0pt;
+    border-top:none;mso-border-top-alt:solid windowtext .5pt;mso-border-alt:
+    solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt'>
+    <p class=MsoNormal><span style='font-size:12.0pt;font-family:"Courier New"'>5<o:p></o:p></span></p>
+    </td>
+    <td width=49 valign=top style='width:36.9pt;border-top:none;border-left:
+    none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+    mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+    mso-border-alt:solid windowtext .5pt;background:#CCFFFF;padding:0cm 5.4pt 0cm 5.4pt'>
+    <p class=MsoNormal><span style='font-size:12.0pt;font-family:"Courier New"'>6<o:p></o:p></span></p>
+    </td>
+    <td width=49 valign=top style='width:36.9pt;border-top:none;border-left:
+    none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+    mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+    mso-border-alt:solid windowtext .5pt;background:#CCFFFF;padding:0cm 5.4pt 0cm 5.4pt'>
+    <p class=MsoNormal><span style='font-size:12.0pt;font-family:"Courier New"'>7<o:p></o:p></span></p>
+    </td>
+    <td width=49 valign=top style='width:36.9pt;border-top:none;border-left:
+    none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+    mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+    mso-border-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt'>
+    <p class=MsoNormal><span style='font-size:12.0pt;font-family:"Courier New"'>8<o:p></o:p></span></p>
+    </td>
+   </tr>
+   <tr style='mso-yfti-irow:2'>
+    <td width=49 valign=top style='width:36.9pt;border:solid windowtext 1.0pt;
+    border-top:none;mso-border-top-alt:solid windowtext .5pt;mso-border-alt:
+    solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt'>
+    <p class=MsoNormal><span style='font-size:12.0pt;font-family:"Courier New"'>-9<o:p></o:p></span></p>
+    </td>
+    <td width=49 valign=top style='width:36.9pt;border-top:none;border-left:
+    none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+    mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+    mso-border-alt:solid windowtext .5pt;background:#CCFFFF;padding:0cm 5.4pt 0cm 5.4pt'>
+    <p class=MsoNormal><span style='font-size:12.0pt;font-family:"Courier New"'>-10<o:p></o:p></span></p>
+    </td>
+    <td width=49 valign=top style='width:36.9pt;border-top:none;border-left:
+    none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+    mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+    mso-border-alt:solid windowtext .5pt;background:#CCFFFF;padding:0cm 5.4pt 0cm 5.4pt'>
+    <p class=MsoNormal><span style='font-size:12.0pt;font-family:"Courier New"'>-11<o:p></o:p></span></p>
+    </td>
+    <td width=49 valign=top style='width:36.9pt;border-top:none;border-left:
+    none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+    mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+    mso-border-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt'>
+    <p class=MsoNormal><span style='font-size:12.0pt;font-family:"Courier New"'>-12<o:p></o:p></span></p>
+    </td>
+   </tr>
+   <tr style='mso-yfti-irow:3;mso-yfti-lastrow:yes'>
+    <td width=49 valign=top style='width:36.9pt;border:solid windowtext 1.0pt;
+    border-top:none;mso-border-top-alt:solid windowtext .5pt;mso-border-alt:
+    solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt'>
+    <p class=MsoNormal><span style='font-size:12.0pt;font-family:"Courier New"'>13<o:p></o:p></span></p>
+    </td>
+    <td width=49 valign=top style='width:36.9pt;border-top:none;border-left:
+    none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+    mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+    mso-border-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt'>
+    <p class=MsoNormal><span style='font-size:12.0pt;font-family:"Courier New"'>14<o:p></o:p></span></p>
+    </td>
+    <td width=49 valign=top style='width:36.9pt;border-top:none;border-left:
+    none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+    mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+    mso-border-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt'>
+    <p class=MsoNormal><span style='font-size:12.0pt;font-family:"Courier New"'>15<o:p></o:p></span></p>
+    </td>
+    <td width=49 valign=top style='width:36.9pt;border-top:none;border-left:
+    none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+    mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+    mso-border-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt'>
+    <p class=MsoNormal><span style='font-size:12.0pt;font-family:"Courier New"'>16<o:p></o:p></span></p>
+    </td>
+   </tr>
+  </table>
+  <p class=MsoNormal><span lang=EN-US style='font-size:12.0pt;mso-ansi-language:
+  EN-US'><o:p></o:p></span></p>
+  </td>
+  <td width=213 valign=top style='width:159.5pt;padding:0cm 5.4pt 0cm 5.4pt'>
+  <table class=MsoTableGrid border=1 cellspacing=0 cellpadding=0 width=197
+   style='width:147.6pt;border-collapse:collapse;border:none;mso-border-alt:
+   solid windowtext .5pt;mso-yfti-tbllook:480;mso-padding-alt:0cm 5.4pt 0cm 5.4pt;
+   mso-border-insideh:.5pt solid windowtext;mso-border-insidev:.5pt solid windowtext'>
+   <tr style='mso-yfti-irow:0'>
+    <td width=49 valign=top style='width:36.9pt;border:solid windowtext 1.0pt;
+    mso-border-alt:solid windowtext .5pt;background:#CCFFFF;padding:0cm 5.4pt 0cm 5.4pt'>
+    <p class=MsoNormal><span style='font-size:12.0pt;font-family:"Courier New"'>-1<o:p></o:p></span></p>
+    </td>
+    <td width=49 valign=top style='width:36.9pt;border:solid windowtext 1.0pt;
+    border-left:none;mso-border-left-alt:solid windowtext .5pt;mso-border-alt:
+    solid windowtext .5pt;background:#CCFFFF;padding:0cm 5.4pt 0cm 5.4pt'>
+    <p class=MsoNormal><span style='font-size:12.0pt;font-family:"Courier New"'>-2<o:p></o:p></span></p>
+    </td>
+    <td width=49 valign=top style='width:36.9pt;border:solid windowtext 1.0pt;
+    border-left:none;mso-border-left-alt:solid windowtext .5pt;mso-border-alt:
+    solid windowtext .5pt;background:#CCFFFF;padding:0cm 5.4pt 0cm 5.4pt'>
+    <p class=MsoNormal><span style='font-size:12.0pt;font-family:"Courier New"'>-3<o:p></o:p></span></p>
+    </td>
+    <td width=49 valign=top style='width:36.9pt;border:solid windowtext 1.0pt;
+    border-left:none;mso-border-left-alt:solid windowtext .5pt;mso-border-alt:
+    solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt'>
+    <p class=MsoNormal><span style='font-size:12.0pt;font-family:"Courier New"'>-4<o:p></o:p></span></p>
+    </td>
+   </tr>
+   <tr style='mso-yfti-irow:1'>
+    <td width=49 valign=top style='width:36.9pt;border:solid windowtext 1.0pt;
+    border-top:none;mso-border-top-alt:solid windowtext .5pt;mso-border-alt:
+    solid windowtext .5pt;background:#CCFFFF;padding:0cm 5.4pt 0cm 5.4pt'>
+    <p class=MsoNormal><span style='font-size:12.0pt;font-family:"Courier New"'>5<o:p></o:p></span></p>
+    </td>
+    <td width=49 valign=top style='width:36.9pt;border-top:none;border-left:
+    none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+    mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+    mso-border-alt:solid windowtext .5pt;background:#CCFFFF;padding:0cm 5.4pt 0cm 5.4pt'>
+    <p class=MsoNormal><span style='font-size:12.0pt;font-family:"Courier New"'>6<o:p></o:p></span></p>
+    </td>
+    <td width=49 valign=top style='width:36.9pt;border-top:none;border-left:
+    none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+    mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+    mso-border-alt:solid windowtext .5pt;background:#CCFFFF;padding:0cm 5.4pt 0cm 5.4pt'>
+    <p class=MsoNormal><span style='font-size:12.0pt;font-family:"Courier New"'>7<o:p></o:p></span></p>
+    </td>
+    <td width=49 valign=top style='width:36.9pt;border-top:none;border-left:
+    none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+    mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+    mso-border-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt'>
+    <p class=MsoNormal><span style='font-size:12.0pt;font-family:"Courier New"'>8<o:p></o:p></span></p>
+    </td>
+   </tr>
+   <tr style='mso-yfti-irow:2'>
+    <td width=49 valign=top style='width:36.9pt;border:solid windowtext 1.0pt;
+    border-top:none;mso-border-top-alt:solid windowtext .5pt;mso-border-alt:
+    solid windowtext .5pt;background:#CCFFFF;padding:0cm 5.4pt 0cm 5.4pt'>
+    <p class=MsoNormal><span style='font-size:12.0pt;font-family:"Courier New"'>-9<o:p></o:p></span></p>
+    </td>
+    <td width=49 valign=top style='width:36.9pt;border-top:none;border-left:
+    none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+    mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+    mso-border-alt:solid windowtext .5pt;background:#CCFFFF;padding:0cm 5.4pt 0cm 5.4pt'>
+    <p class=MsoNormal><span style='font-size:12.0pt;font-family:"Courier New"'>-10<o:p></o:p></span></p>
+    </td>
+    <td width=49 valign=top style='width:36.9pt;border-top:none;border-left:
+    none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+    mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+    mso-border-alt:solid windowtext .5pt;background:#CCFFFF;padding:0cm 5.4pt 0cm 5.4pt'>
+    <p class=MsoNormal><span style='font-size:12.0pt;font-family:"Courier New"'>-11<o:p></o:p></span></p>
+    </td>
+    <td width=49 valign=top style='width:36.9pt;border-top:none;border-left:
+    none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+    mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+    mso-border-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt'>
+    <p class=MsoNormal><span style='font-size:12.0pt;font-family:"Courier New"'>-12<o:p></o:p></span></p>
+    </td>
+   </tr>
+   <tr style='mso-yfti-irow:3;mso-yfti-lastrow:yes'>
+    <td width=49 valign=top style='width:36.9pt;border:solid windowtext 1.0pt;
+    border-top:none;mso-border-top-alt:solid windowtext .5pt;mso-border-alt:
+    solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt'>
+    <p class=MsoNormal><span style='font-size:12.0pt;font-family:"Courier New"'>13<o:p></o:p></span></p>
+    </td>
+    <td width=49 valign=top style='width:36.9pt;border-top:none;border-left:
+    none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+    mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+    mso-border-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt'>
+    <p class=MsoNormal><span style='font-size:12.0pt;font-family:"Courier New"'>14<o:p></o:p></span></p>
+    </td>
+    <td width=49 valign=top style='width:36.9pt;border-top:none;border-left:
+    none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+    mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+    mso-border-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt'>
+    <p class=MsoNormal><span style='font-size:12.0pt;font-family:"Courier New"'>15<o:p></o:p></span></p>
+    </td>
+    <td width=49 valign=top style='width:36.9pt;border-top:none;border-left:
+    none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+    mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+    mso-border-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt'>
+    <p class=MsoNormal><span style='font-size:12.0pt;font-family:"Courier New"'>16<o:p></o:p></span></p>
+    </td>
+   </tr>
+  </table>
+  <p class=MsoNormal><span lang=EN-US style='font-size:12.0pt;mso-ansi-language:
+  EN-US'><o:p></o:p></span></p>
+  </td>
+  <td width=213 valign=top style='width:159.55pt;padding:0cm 5.4pt 0cm 5.4pt'>
+  <table class=MsoTableGrid border=1 cellspacing=0 cellpadding=0 width=197
+   style='width:147.8pt;border-collapse:collapse;border:none;mso-border-alt:
+   solid windowtext .5pt;mso-yfti-tbllook:480;mso-padding-alt:0cm 5.4pt 0cm 5.4pt;
+   mso-border-insideh:.5pt solid windowtext;mso-border-insidev:.5pt solid windowtext'>
+   <tr style='mso-yfti-irow:0'>
+    <td width=49 valign=top style='width:36.95pt;border:solid windowtext 1.0pt;
+    mso-border-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt'>
+    <p class=MsoNormal><span style='font-size:12.0pt;font-family:"Courier New"'>-1<o:p></o:p></span></p>
+    </td>
+    <td width=49 valign=top style='width:36.95pt;border:solid windowtext 1.0pt;
+    border-left:none;mso-border-left-alt:solid windowtext .5pt;mso-border-alt:
+    solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt'>
+    <p class=MsoNormal><span style='font-size:12.0pt;font-family:"Courier New"'>-2<o:p></o:p></span></p>
+    </td>
+    <td width=49 valign=top style='width:36.95pt;border:solid windowtext 1.0pt;
+    border-left:none;mso-border-left-alt:solid windowtext .5pt;mso-border-alt:
+    solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt'>
+    <p class=MsoNormal><span style='font-size:12.0pt;font-family:"Courier New"'>-3<o:p></o:p></span></p>
+    </td>
+    <td width=49 valign=top style='width:36.95pt;border:solid windowtext 1.0pt;
+    border-left:none;mso-border-left-alt:solid windowtext .5pt;mso-border-alt:
+    solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt'>
+    <p class=MsoNormal><span style='font-size:12.0pt;font-family:"Courier New"'>-4<o:p></o:p></span></p>
+    </td>
+   </tr>
+   <tr style='mso-yfti-irow:1'>
+    <td width=49 valign=top style='width:36.95pt;border:solid windowtext 1.0pt;
+    border-top:none;mso-border-top-alt:solid windowtext .5pt;mso-border-alt:
+    solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt'>
+    <p class=MsoNormal><span style='font-size:12.0pt;font-family:"Courier New"'>5<o:p></o:p></span></p>
+    </td>
+    <td width=49 valign=top style='width:36.95pt;border-top:none;border-left:
+    none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+    mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+    mso-border-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt'>
+    <p class=MsoNormal><span style='font-size:12.0pt;font-family:"Courier New"'>6<o:p></o:p></span></p>
+    </td>
+    <td width=49 valign=top style='width:36.95pt;border-top:none;border-left:
+    none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+    mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+    mso-border-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt'>
+    <p class=MsoNormal><span style='font-size:12.0pt;font-family:"Courier New"'>7<o:p></o:p></span></p>
+    </td>
+    <td width=49 valign=top style='width:36.95pt;border-top:none;border-left:
+    none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+    mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+    mso-border-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt'>
+    <p class=MsoNormal><span style='font-size:12.0pt;font-family:"Courier New"'>8<o:p></o:p></span></p>
+    </td>
+   </tr>
+   <tr style='mso-yfti-irow:2'>
+    <td width=49 valign=top style='width:36.95pt;border:solid windowtext 1.0pt;
+    border-top:none;mso-border-top-alt:solid windowtext .5pt;mso-border-alt:
+    solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt'>
+    <p class=MsoNormal><span style='font-size:12.0pt;font-family:"Courier New"'>-9<o:p></o:p></span></p>
+    </td>
+    <td width=49 valign=top style='width:36.95pt;border-top:none;border-left:
+    none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+    mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+    mso-border-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt'>
+    <p class=MsoNormal><span style='font-size:12.0pt;font-family:"Courier New"'>-10<o:p></o:p></span></p>
+    </td>
+    <td width=49 valign=top style='width:36.95pt;border-top:none;border-left:
+    none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+    mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+    mso-border-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt'>
+    <p class=MsoNormal><span style='font-size:12.0pt;font-family:"Courier New"'>-11<o:p></o:p></span></p>
+    </td>
+    <td width=49 valign=top style='width:36.95pt;border-top:none;border-left:
+    none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+    mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+    mso-border-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt'>
+    <p class=MsoNormal><span style='font-size:12.0pt;font-family:"Courier New"'>-12<o:p></o:p></span></p>
+    </td>
+   </tr>
+   <tr style='mso-yfti-irow:3;mso-yfti-lastrow:yes'>
+    <td width=49 valign=top style='width:36.95pt;border:solid windowtext 1.0pt;
+    border-top:none;mso-border-top-alt:solid windowtext .5pt;mso-border-alt:
+    solid windowtext .5pt;background:#CCFFFF;padding:0cm 5.4pt 0cm 5.4pt'>
+    <p class=MsoNormal><span style='font-size:12.0pt;font-family:"Courier New"'>13<o:p></o:p></span></p>
+    </td>
+    <td width=49 valign=top style='width:36.95pt;border-top:none;border-left:
+    none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+    mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+    mso-border-alt:solid windowtext .5pt;background:#CCFFFF;padding:0cm 5.4pt 0cm 5.4pt'>
+    <p class=MsoNormal><span style='font-size:12.0pt;font-family:"Courier New"'>14<o:p></o:p></span></p>
+    </td>
+    <td width=49 valign=top style='width:36.95pt;border-top:none;border-left:
+    none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+    mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+    mso-border-alt:solid windowtext .5pt;background:#CCFFFF;padding:0cm 5.4pt 0cm 5.4pt'>
+    <p class=MsoNormal><span style='font-size:12.0pt;font-family:"Courier New"'>15<o:p></o:p></span></p>
+    </td>
+    <td width=49 valign=top style='width:36.95pt;border-top:none;border-left:
+    none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+    mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+    mso-border-alt:solid windowtext .5pt;background:#CCFFFF;padding:0cm 5.4pt 0cm 5.4pt'>
+    <p class=MsoNormal><span style='font-size:12.0pt;font-family:"Courier New"'>16<o:p></o:p></span></p>
+    </td>
+   </tr>
+  </table>
+  <p class=MsoNormal><span lang=EN-US style='font-size:12.0pt;mso-ansi-language:
+  EN-US'><o:p></o:p></span></p>
+  </td>
+ </tr>
+</table>
+
+<p class=MsoNormal><span lang=EN-US style='mso-ansi-language:EN-US'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal><b><i><span style='font-size:12.0pt'>Требуется </span></i></b><span
+style='font-size:12.0pt'>найти <span class=SpellE>подмассив</span> с
+максимальной суммой элементов.</span></p>
+
+<p class=normal style='text-align:justify'><b style='mso-bidi-font-weight:normal'><i
+style='mso-bidi-font-style:normal'>Входные данные:<o:p></o:p></i></b></p>
+
+<p class=MsoNormal><span style='font-size:12.0pt'>В первой строке входного
+файла задаётся единственное число <b style='mso-bidi-font-weight:normal'><i
+style='mso-bidi-font-style:normal'>N</i> </b>(1<span class=SpellE>&#8804;<b
+style='mso-bidi-font-weight:normal'><i style='mso-bidi-font-style:normal'>N</i></b>&#8804;100</span>).
+<span class=GramE>Следующие</span> <b style='mso-bidi-font-weight:normal'><i
+style='mso-bidi-font-style:normal'>N</i></b> строк содержат по <b
+style='mso-bidi-font-weight:normal'><i style='mso-bidi-font-style:normal'>N</i></b>
+целых чисел, разделенных одним пробелом. (-10<span class=SpellE><sup>4</sup>&#8804;<b
+style='mso-bidi-font-weight:normal'><i style='mso-bidi-font-style:normal'>A<sub>ij</sub></i></b>&#8804;10<sup>4</sup></span>)</span></p>
+
+<p class=normal style='text-align:justify'><b style='mso-bidi-font-weight:normal'><i
+style='mso-bidi-font-style:normal'>Выходные данные:<o:p></o:p></i></b></p>
+
+<p class=normal style='text-align:justify'>Выходной файл содержит искомый <span
+class=SpellE>подмассив</span> из нескольких строк и столбцов с максимальной
+суммой элементов. Числа в строке разделяются одним пробелом. </p>
+
+<table class=MsoNormalTable border=0 cellspacing=0 cellpadding=0
+ style='margin-left:5.4pt;border-collapse:collapse;mso-padding-alt:0cm 0cm 0cm 0cm'>
+ <tr style='mso-yfti-irow:0'>
+  <td width=170 valign=top style='width:127.6pt;border:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=normal align=center style='text-align:center'><b><span
+  style='font-family:"Courier New"'>Пример теста</span></b></p>
+  </td>
+  <td width=180 valign=top style='width:134.65pt;border:solid windowtext 1.0pt;
+  border-left:none;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=normal align=center style='text-align:center'><b><span
+  style='font-family:"Courier New"'>Пример ответа</span></b></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:1;mso-yfti-lastrow:yes'>
+  <td width=170 valign=top style='width:127.6pt;border:solid windowtext 1.0pt;
+  border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal><span style='font-size:12.0pt;font-family:"Courier New"'>1</span></p>
+  <p class=MsoNormal><span style='font-size:12.0pt;font-family:"Courier New"'>&nbsp;</span></p>
+  <p class=MsoNormal><span style='font-size:12.0pt;font-family:"Courier New"'>4</span></p>
+  <p class=MsoNormal><span style='font-size:12.0pt;font-family:"Courier New"'>-1
+  –2 –3 –4</span></p>
+  <p class=MsoNormal><span style='font-size:12.0pt;font-family:"Courier New"'>5
+  6 7 8</span></p>
+  <p class=MsoNormal><span style='font-size:12.0pt;font-family:"Courier New"'>-9
+  –10 –11 –12</span></p>
+  <p class=MsoNormal><span style='font-size:12.0pt;font-family:"Courier New"'>13
+  14 15 16</span></p>
+  </td>
+  <td width=180 valign=top style='width:134.65pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=normal style='text-align:justify'><span style='font-family:"Courier New"'>13
+  14 15 16</span></p>
+  </td>
+ </tr>
+</table>
+
+<p class=normal style='text-align:justify'><b><span style='font-family:Arial'>&nbsp;</span></b></p>
+
+<p class=MsoNormal><span style='font-size:12.0pt'>&nbsp;</span></p>
+
+</div>
+
+</body>
+
+</html>

@@ -1,0 +1,76 @@
+{$APPTYPE CONSOLE}
+
+var F : String; { Логическая функция }
+
+function Replace( _from,_to:String ):Boolean;
+var i : Integer;
+begin
+  Result:=false;
+  while true do begin
+    i := pos(_from,F);
+    if i=0 then exit;
+    Delete(F,i,Length(_from));
+    if _to<>'' then Insert(_to,F,i);
+    Result:=true;
+  end;
+end;
+
+function Simplify( S:String ) : String;
+begin
+  F := S;
+  while Length(F)>1 do begin
+    {!}
+    While Replace('!!','') do;
+    While Replace('!0','1') or Replace('!1','0') do;
+    {&}
+    While Replace('0&0','0') or Replace('0&1','0') or
+          Replace('1&0','0') or Replace('1&1','1') do;
+    {|}
+    While Replace('0|0','0') or Replace('0|1','1') or
+          Replace('1|0','1') or Replace('1|1','1') do;
+  end;
+  Result := F;
+end;
+
+var
+  testNum,test,vectors,vv : integer;
+  FF : String; { Логическая функция }
+  v : String; { Вектор значений }
+  ch : Char;
+  GlobalTest : char;
+begin
+  F := 'test';
+  Replace('es','Denis');
+  assert( F = 'tDenist' );
+  assert( Simplify('!!0')='0' );
+  assert( Simplify('!!1')='1' );
+  {}
+  for GlobalTest := '1' to '2' do begin
+    reset(input,'0'+GlobalTest);
+    rewrite(output,'0'+GlobalTest+'.a');
+    {}
+    readln(testNum);
+    for test:=1 to testNum do begin
+      {}
+      FF:='';
+      repeat
+        read(ch);
+        if ch<>' ' then FF:=FF+ch;
+      until ch=' ';
+      {}
+      readln(vectors);
+      Writeln;
+      for vv:=1 to vectors do begin
+        readln(v);
+        F:=FF;
+        {}
+        for ch:='A' to Chr(Length(v)+Ord('A')-1) do
+          Replace(ch,v[Ord(ch)-Ord('A')+1]);
+        {}
+        Writeln( Simplify(F) );
+      end;
+    end;
+    {}
+    CloseFile(input); CloseFile(output);
+  end;
+end.
